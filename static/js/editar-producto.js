@@ -43,7 +43,7 @@ class Producto {
             </div>
             <div class="mb-3">
               <button id="btn-put" type="button" class="btn btn-success m-1" onclick="update()">Actualizar producto</button>
-              <button id="btn-back" type="button" class="btn btn-outline-primary m-1" onclick="index()"><i class="fa fa-arrow-left me-2"></i>Volver</button>
+              <button id="btn-back" type="button" class="btn btn-outline-primary m-1" onclick="index()">Volver</button>
             </div>
         </form>
         `
