@@ -9,7 +9,7 @@ function getParameterByName(name) {
 
 let prodId = getParameterByName('id')
 
-const URL_API_BASE = `http://gemefe.pythonanywhere.com/producto/${prodId}/`
+const URL_API_BASE = `https://gemefe.pythonanywhere.com/producto/${prodId}/`
 
 class Producto {
   constructor({ id, name, price, description, image }) {

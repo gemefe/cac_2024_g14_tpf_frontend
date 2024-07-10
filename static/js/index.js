@@ -1,4 +1,4 @@
-const URL_API_BASE = "http://gemefe.pythonanywhere.com/producto/"
+const URL_API_BASE = "https://gemefe.pythonanywhere.com/producto/"
 
 class Producto{
     constructor({id, name, price, description, image}) {

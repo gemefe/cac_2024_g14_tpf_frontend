@@ -4,7 +4,7 @@ const PORT = 8000
 const form = document.getElementById("crear-producto-form") 
 const btn = document.getElementById("btn-post")
 
-const URL_API_BASE = `http://gemefe.pythonanywhere.com/producto/`
+const URL_API_BASE = `https://gemefe.pythonanywhere.com/producto/`
 // const URL_API_BASE = `http://${HOST}:${PORT}/producto/`
 
 btn.addEventListener("click", (e)=> {
