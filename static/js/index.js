@@ -18,13 +18,17 @@ class Producto{
         return `
             <div id="${this.id}" class="section m-3 p-5 pt-3 border border-secondary border-1 border-gray rounded-3">
                 <div class="row">
-                    <h4 class="col-6 col-sm-12" >${this.name}</h4>
-                    <button class="col col-sm-3 btn btn-outline-danger m-1" onclick=deleteData(${this.id})>
-                        Eliminar
-                    </button>
-                    <button class="col col-sm-3 btn btn-outline-secondary m-1" onclick=updateData(${this.id})>
-                        Editar
-                    </button>
+                    <div class="col-sm-12 col-md-6">
+                        <h4 class="" >${this.name}</h4>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-end">
+                        <button class="col-6 btn btn-outline-danger m-1" onclick=deleteData(${this.id})>
+                            Eliminar
+                        </button>
+                        <button class="col-6 btn btn-outline-secondary m-1" onclick=updateData(${this.id})>
+                            Editar
+                        </button>
+                    </div>
                 </div>
                 <hr />
                 <div class="row">
