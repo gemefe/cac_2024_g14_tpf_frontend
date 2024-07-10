@@ -18,7 +18,7 @@ class Producto{
         return `
             <div id="${this.id}" class="section m-3 p-5 pt-3 border border-secondary border-1 border-gray rounded-3">
                 <div class="row">
-                    <h4 class="col-6" >${this.name}</h4>
+                    <h4 class="col-6 col-sm-12" >${this.name}</h4>
                     <button class="col col-sm-3 btn btn-outline-danger m-1" onclick=deleteData(${this.id})>
                         Eliminar
                     </button>
