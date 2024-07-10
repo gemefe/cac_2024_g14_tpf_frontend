@@ -32,7 +32,7 @@ class Producto{
                 </div>
                 <hr />
                 <div class="row">
-                    <img class="col-auto img-thumbnail mb-sm-3" src="${this.image_url}" style="max-height: 200px;" />
+                    <img class="col-auto img-thumbnail mb-3" src="${this.image_url}" style="max-height: 200px;" />
                     <ul class="col">
                         <li><strong>Precio: </strong>$${this.price}</li>
                         <li><strong>Descripción: </strong>${this.description}</li>
